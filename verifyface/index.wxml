@@ -1,0 +1,8 @@
+<camera device-position="front" flash="off" binderror="error" style="width: 100%; height: 300px;"></camera>
+
+<button type="primary" bindtap="takePhoto">拍照</button>
+
+<view bindtap="chooseImage" data-type="font">上传正面</view> <image src="{{cardfont}}" style="width:300rpx;height:180rpx;"></image>
+<view bindtap="chooseImage" data-type="back">上传反面</view> <image src="{{cardback}}" style="width:300rpx;height:180rpx;"></image>
+
+<button type="primary" bindtap="cardverify">身份证验证</button>
